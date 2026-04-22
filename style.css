@@ -99,11 +99,10 @@ button:active {
     text-transform: uppercase;
 }
 
-/* 화면 전체를 감싸는 고정 폭 컨테이너 */
+/* style.css 파일의 이 부분을 수정하세요 */
 .wrapper {
-    width: 900px;       /* 사이트 전체 가로폭을 900px로 고정 */
-    margin: 0 auto;     /* 브라우저 화면 중앙에 배치 */
-    max-width: 100%;    /* 모바일에서는 화면 너비에 맞춰 자동 조절 */
+    width: 1200px;      /* 900px에서 1200px로 늘렸습니다 */
+    margin: 0 auto;     /* 여전히 중앙 정렬 */
+    max-width: 95%;     /* 모바일일 때는 화면의 95%까지 차게 설정 */
     position: relative;
 }
-
