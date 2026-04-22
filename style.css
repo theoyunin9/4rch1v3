@@ -1,0 +1,28 @@
+body {
+    background-color: #008080;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.window {
+    width: 400px;
+    background: #c0c0c0;
+    border: 2px solid #fff;
+    border-bottom: 2px solid #000;
+    border-right: 2px solid #000;
+    margin: 50px auto;
+    padding: 3px;
+}
+
+.title-bar {
+    background: linear-gradient(90deg, #000080, #1084d0);
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.content {
+    padding: 20px;
+    background: white;
+    border: 1px solid #808080;
+    margin-top: 2px;
+}
