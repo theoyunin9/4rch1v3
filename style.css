@@ -98,3 +98,12 @@ button:active {
     letter-spacing: -2px; /* 글자 간격 좁혀서 빈티지한 느낌 */
     text-transform: uppercase;
 }
+
+/* 화면 전체를 감싸는 고정 폭 컨테이너 */
+.wrapper {
+    width: 900px;       /* 사이트 전체 가로폭을 900px로 고정 */
+    margin: 0 auto;     /* 브라우저 화면 중앙에 배치 */
+    max-width: 100%;    /* 모바일에서는 화면 너비에 맞춰 자동 조절 */
+    position: relative;
+}
+
